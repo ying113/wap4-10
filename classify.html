@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no">
+    <title>金猫银猫分类</title>
+    <link rel="shortcut icon" href="favicon .ico" type="image/x-icon">
+    <link rel="stylesheet" href="style/base.css">
+    <link rel="stylesheet" href="style/swiper-4.1.6.min.css">
+    <link rel="stylesheet" href="style/classify.css">
+    <script src="js/adaptive.js"></script>
+    <script src="js/jquery-1.10.1.min.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function() {
+            $(".tabs li").click(function() {
+                $(".tabs li a").removeClass("current");
+                $(this).children("a").addClass("current");
+
+                $(".list-right").hide(0);
+                $(".list-right:eq(" + $(this).index() + ")").show(0);
+            });
+
+        });
+    </script>
+</head>
+<body>
+    <!--头部开始-->
+    <header class="m_sub_header">
+        <div class="m_header_left iconfont">
+            <a href="">&#xe610;</a>
+        </div>
+        <div class="m_header_right">
+            <span>产品分类</span>
+        </div>
+    </header>
+    <!--头部结束-->
+    <!--分类列表开始-->
+    <section class="list m_layout">
+        <div class="list-left">
+            <ul class="tabs">
+                <li><a href="#">品牌推荐</a></li>
+                <li><a href="#">金银投资</a></li>
+                <li><a href="#" class="current">金银饰品</a></li>
+                <li><a href="#" >金银礼品</a></li>
+                <li><a href="#">晶石木饰</a></li>
+                <li><a href="#">珍珠琥珀</a></li>
+                <li><a href="#">翡翠玉石</a></li>
+                <li><a href="#">钻石彩宝</a></li>
+                <li><a href="#">品牌推荐</a></li>
+                <li><a href="#">金银投资</a></li>
+                <li><a href="#">金银饰品</a></li>
+                <li><a href="#">金银礼品</a></li>
+                <li><a href="#">晶石木饰</a></li>
+                <li><a href="#">珍珠琥珀</a></li>
+                <li><a href="#">翡翠玉石</a></li>
+                <li><a href="#">钻石彩宝</a></li>
+            </ul>
+        </div>
+        <div class="list-right" style="display: none;">
+            <div class="con">
+                <p class="tit">材质2</p>
+                <ul class="clearfix">
+                    <li>
+                        <a href="#">
+                            <img src="images/50.jpg" alt="">
+                            <p>S925银</p>
+                        </a>
+                    </li>
+                    <li class="list-1">
+                        <a href="#">
+                            <img src="images/51.jpg" alt="">
+                            <p>足银990</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="images/52.jpg" alt="">
+                            <p>足银999</p>
+                        </a>
+                    </li>
+                </ul>
+                <ul class="clearfix">
+                    <li>
+                        <a href="#">
+                            <img src="images/53.jpg" alt="">
+                            <p>足金</p>
+                        </a>
+                    </li>
+                    <li class="list-1">
+                        <a href="#">
+                            <img src="images/55.jpg" alt="">
+                            <p>3D硬金</p>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="list-right" style="display: none;">
+            <div class="con">
+                <p class="tit">材质3</p>
+                <ul class="clearfix">
+                    <li>
+                        <a href="">
+                            <img src="images/50.jpg" alt="">
+                            <p>S925银</p>
+                        </a>
+                    </li>
+                    <li class="list-1">
+                        <a href="#">
+                            <img src="images/51.jpg" alt="">
+                            <p>足银990</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="images/52.jpg" alt="">
+                            <p>足银999</p>
+                        </a>
+                    </li>
+                </ul>
+                <ul class="clearfix">
+                    <li>
+                        <a href="#">
+                            <img src="images/53.jpg" alt="">
+                            <p>足金</p>
+                        </a>
+                    </li>
+                    <li class="list-1">
+                        <a href="#">
+                            <img src="images/55.jpg" alt="">
+                            <p>3D硬金</p>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="list-right" style="display: block;">
+            <div class="con">
+                <p class="tit">材质</p>
+                <ul class="clearfix">
+                    <li>
+                        <a href="detail.html">
+                            <img src="images/50.jpg" alt="">
+                            <p>S925银</p>
+                        </a>
+                    </li>
+                    <li class="list-1">
+                        <a href="#">
+                            <img src="images/51.jpg" alt="">
+                            <p>足银990</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="images/52.jpg" alt="">
+                            <p>足银999</p>
+                        </a>
+                    </li>
+                </ul>
+                <ul class="clearfix">
+                    <li>
+                        <a href="#">
+                            <img src="images/53.jpg" alt="">
+                            <p>足金</p>
+                        </a>
+                    </li>
+                    <li class="list-1">
+                        <a href="#">
+                            <img src="images/55.jpg" alt="">
+                            <p>3D硬金</p>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </section>
+    <!--分类列表结束-->
+    <!--底部开始-->
+    <footer>
+        <ul>
+            <li class="tab_on">
+                <a href="index.html">
+                    <img src="images/首页2.png" alt="">
+                    <p class="t2">首页</p>
+                </a>
+            </li>
+            <li>
+                <a href="">
+                    <img src="images/搜索4.png" alt="">
+                    <p class="t2">发现</p>
+                </a>
+            </li>
+            <li>
+                <a href="shopping.html">
+                    <img src="images/购物车1.png" alt="">
+                    <p class="t2">购物车</p>
+                </a>
+            </li>
+            <li>
+                <a href="register.html">
+                    <img src="images/我的1.png" alt="">
+                    <p class="t2">我的</p>
+                </a>
+            </li>
+        </ul>
+    </footer>
+    <!--底部结束-->
+</body>
+</html>

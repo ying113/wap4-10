@@ -1,0 +1,198 @@
+/*头部*/
+.shopping_header {
+    width: 100%;
+    max-width: 7.5rem;
+    min-width: 3.2rem;
+    height: 0.88rem;
+    background: #ffffff;
+    margin: 0 auto;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 20;
+    border-bottom: 0.02rem solid #c6c6c6;
+}
+.shopping_header .m_left {
+    width: 0.48rem;
+    height: 0.48rem;
+    position: absolute;
+    left: 0.3rem;
+    top: 0.2rem;
+    font-size: 0.48rem;
+}
+.shopping_header h2 {
+    text-align: center;
+    height: 100%;
+    font-size: 0.32rem;
+    line-height: 0.86rem;
+    color: #010101;
+}
+.shopping_header .m_right {
+    width: 0.68rem;
+    height: 0.48rem;
+    font-size: 0.28rem;
+    color: #000000;
+    position: absolute;
+    right: 0.22rem;
+    top: 0.22rem;
+}
+/*内容*/
+
+input.check {
+    width: 0.42rem;
+    height: 0.42rem;
+    display: block;
+    background: url(../images/icon.png) no-repeat left center;
+    background-size: 0.42rem 0.42rem;
+    position: absolute;
+    left: 0.25rem;
+    top: 40%;
+    /*margin-top: -0.21rem;*/
+    transform: translate(-50%);
+}
+input.check:checked {
+    background: url(../images/icon2.png) no-repeat left center;
+    background-size: 0.42rem 0.42rem;
+}
+.shopping {
+    background: #f7f3f7;
+    overflow: hidden;
+    padding-top: 0.88rem;
+    padding-bottom: 1rem;
+}
+.shopping ul {
+    width: 100%;
+    height: auto;
+    /*background: #fff;*/
+    /*padding: 0 0.20rem 0 0.20rem;*/
+    margin-top: 0.25rem;
+    min-height: 2.3rem;
+
+}
+.shopping ul li {
+    width: 100%;
+    height: 2.3rem;
+    /*background: red;*/
+    position: relative;
+    background: #fff;
+    padding: 0 0.20rem 0 0.20rem;
+    margin-bottom: 0.02rem;
+
+}
+.shopping ul li .shop-info {
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+.shopping ul li .shop-info .shop-info-img img {
+    width: 1.50rem;
+    height: 1.47rem;
+    overflow: hidden;
+    position: absolute;
+    left: 0.55rem;
+    top: 50%;
+    transform:translateY(-50%);
+}
+.shopping ul li .shop-text {
+    width: 4.71rem;
+    height: 1.71rem;
+    overflow: hidden;
+    position: absolute;
+    left: 2.5rem;
+    top: 50%;
+    transform:translateY(-50%);
+    /*background: #f4ad3c;*/
+}
+.shopping ul li .shop-text .text-top h4 {
+    font-size: 0.26rem;
+    float: left;
+}
+.shopping ul li .shop-text .text-top span {
+    font-size: 0.30rem;
+    color: #ff0000;
+    float: right;
+    margin-right: 0.18rem;
+}
+.shopping ul li .shop-text .info-bot {
+    width: 4.57rem;
+    height: 0.83rem;
+    background: #f7f7f7;
+    position: relative;
+    margin-top: 0.20rem;
+}
+.shopping ul li .shop-text .info-bot .bot-1 {
+    color: #929192;
+    font-size: 0.24rem;
+    position: absolute;
+    top: 11%;
+    left: 0.20rem;
+}
+.shopping ul li .shop-text .info-bot .bot-2 {
+    color: #929192;
+    font-size: 0.24rem;
+    position: absolute;
+    top: 54%;
+    left: 0.20rem;
+}
+.shopping ul li .shop-text .info-bot .bot-3 {
+    color: #b9b7b9;
+    font-size: 0.34rem;
+    position: absolute;
+    top: 50%;
+    right: 0.2rem;
+    transform:translateY(-50%);
+}
+.foot-edit {
+    width: 100%;
+    max-width: 7.5rem;
+    min-width: 3.2rem;
+    height: 1rem;
+    background: #f7f3f7;
+    border-top: 0.02rem solid #cacaca;
+    position: fixed;
+    bottom: 0.98rem;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+}
+.foot-edit .all-checkbox {
+    width: 1.5rem;
+    line-height: 1rem;
+    padding-left: 0.76rem;
+}
+.foot-edit .all-checkbox .check {
+    position: absolute;
+    left: 0.2rem;
+}
+.foot-edit .foot-edit-r {
+    width: 4.3rem;
+    height: 100%;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+.foot-edit .foot-edit-r .settlement {
+    width: 2.1rem;
+    height: 100%;
+    background: #ad2018;
+    border: 0 none;
+    font-size: 0.3rem;
+    line-height: 0.3rem;
+    text-align: center;
+    color: #fff;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+.foot-edit .foot-edit-r span{
+    display: inline-block;
+    margin-top: 0.30rem;
+    margin-left: 0.50rem;
+    font-size: 0.28rem;
+}
+.foot-edit .foot-edit-r span .total {
+    font-style:normal;
+    font-size: 0.30rem;
+    color: #ff0000;
+}

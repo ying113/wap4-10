@@ -1,0 +1,88 @@
+/*html,body {*/
+    /*width: 100%;*/
+    /*height:100%;*/
+/*}*/
+body {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
+.list {
+    width: 100%;
+    height: 100%;
+    background: #eeeeee;
+    position: relative;
+    overflow: hidden;
+}
+.list .list-left {
+    width: 1.88rem;
+    background: white;
+    overflow-y: scroll;
+    float: left;
+    position: absolute;
+    left: 0;
+    top: 0.88rem;
+    bottom: 1rem;
+}
+.list .list-left ul {
+    width: 100%;
+    height: 100%;
+}
+.list .list-left ul li {
+    width: 100%;
+    height: 1.23rem;
+    line-height: 1.23rem;
+    text-align: center;
+    border-bottom: 0.02rem solid #ebebeb;
+}
+.list .list-left ul li a {
+    width:100%;
+    height:100%;
+    color: #222222;
+    font-size: 0.30rem;
+    display:block;
+}
+.list .list-left ul .current {
+    color:#ba2922;
+    background: #ebebeb;
+    border-left:0.06rem solid #ba2922;
+}
+.list .list-right {
+    width: 5.3rem;
+    overflow: scroll;
+    float: right;
+    position: absolute;
+    right: 0;
+    top: 0.88rem;
+    bottom: 1rem;
+}
+.list .list-right .con .tit {
+    font-size: 0.24rem;
+    color: #919191;
+    padding-left: 0.15rem;
+    margin-top: 0.20rem;
+    border-left: 0.03rem solid #919191;
+}
+.list .list-right .con ul {
+    margin-top: 0.15rem;
+}
+.list .list-right .con ul li {
+    width: 1.61rem;
+    height: 2rem;
+    background: white;
+    float: left;
+    text-align: center;
+}
+.list .list-right .con ul .list-1 {
+    margin-left: 0.12rem;
+    margin-right: 0.12rem;
+}
+.list .list-right .con ul li img {
+    width: 1.61rem;
+    height: 1.61rem;
+}
+.list .list-right .con ul li p {
+    color: #919191;
+    font-size: 0.24rem;
+    margin-top: 0.1rem;
+}

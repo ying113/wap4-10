@@ -1,0 +1,305 @@
+/*头部*/
+.d_header {
+    max-width: 7.5rem;
+    min-width: 3.2rem;
+    width: 100%;
+    height:0.88rem;
+    background: #ffffff;
+    position: fixed;
+    margin: 0 auto;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 20;
+    border-bottom: 0.01rem solid #cfcfcf;
+}
+.d_header .d_left a {
+    width: 0.50rem;
+    height: 0.50rem;
+    font-size: 0.45rem;
+    color: #a1a1a1;
+    position: absolute;
+    top: 0.23rem;
+    left: 0.20rem;
+}
+.d_header .d_middle {
+    text-align: center;
+    line-height: 0.88rem;
+}
+.d_header .d_middle span {
+    font-size: 0.34rem;
+    color: #333333;
+}
+.d_header .d_right_1 a {
+    width: 0.32rem;
+    height: 0.32rem;
+    font-size: 0.32rem;
+    color: #c3c3c3;
+    position: absolute;
+    top: 0.30rem;
+    right: 1.2rem;
+}
+.d_header .d_right_2 a {
+    width: 0.32rem;
+    height: 0.32rem;
+    font-size: 0.32rem;
+    color: #c3c3c3;
+    position: absolute;
+    top: 0.28rem;
+    right: 0.40rem;
+}
+/*内容*/
+.d_content {
+    /*height: 90rem;*/
+    position: relative;
+    z-index: 10;
+    margin-top: 0.88rem;
+}
+.d_content .banner {
+    width: 100%;
+}
+.d_content .banner .swiper-container {
+    width: 100%;
+}
+.d_content .banner .swiper-container .swiper-slide {
+    width: 100%;
+}
+.d_content .banner .swiper-container .swiper-slide img{
+    width: 100%;
+}
+.d_content .banner .swiper-pagination-bullet {
+    width: 8px;
+    height: 8px;
+    display: inline-block;
+    border-radius: 100%;
+    background: #fff;
+    opacity: .6;
+}
+.d_content .banner .swiper-pagination-bullet-active {
+    opacity: 1;
+    background: red;
+}
+/*价格*/
+.d_content .text {
+    padding-left: 0.20rem;
+    padding-right: 0.20rem;
+    padding-bottom: 0.26rem;
+    border-bottom: 1px solid #efefef;
+}
+.d_content .text .text-top .text-1 {
+    font-size: 0.40rem;
+    color: #DD2727;
+    float: left;
+    /*margin-left: 0.20rem;*/
+    margin-top: 0.20rem;
+}
+.d_content .text .text-top {
+    width: 100%;
+    height: 0.80rem;
+}
+.d_content .text .text-top .text-2 {
+    font-size: 0.24rem;
+    color: #8b8a8b;
+    float: right;
+    /*margin-right: 0.20rem;*/
+    margin-top: 0.30rem;
+}
+.d_content .text .text-down {
+    font-size: 0.30rem;
+    color: #333333;
+    margin-left: 0.10rem;
+    margin-top: 0.10rem;
+}
+/*正品*/
+.d_content .quality-goods {
+    padding-bottom: 0.13rem;
+    border-bottom: 5px solid #efefef;
+}
+.d_content .quality-goods ul {
+    padding-left: 0.20rem;
+    padding-right: 0.20rem;
+
+}
+.d_content .quality-goods ul li {
+    float: left;
+    margin-right: 0.24rem;
+}
+.d_content .quality-goods ul li img {
+    width: 0.24rem;
+    height: 0.24rem;
+    float: left;
+    margin-top: 0.15rem;
+}
+.d_content .quality-goods ul li span {
+    color: #535353;
+    font-size: 0.22rem;
+    float: left;
+    margin-top: 0.12rem;
+    margin-left: 0.05rem;
+}
+/*尺寸*/
+.d_content .size {
+    padding-bottom: 0.20rem;
+    border-bottom: 5px solid #efefef;
+}
+.d_content .size .size-left {
+    margin-top: 0.20rem;
+    padding-left: 0.20rem;
+    float: left;
+}
+.d_content .size .size-left p {
+    font-size: 0.28rem;
+}
+.d_content .size .size-left p span {
+    font-size: 0.28rem;
+    color: #787678;
+}
+.d_content .size .size-right {
+    width: 0.50rem;
+    height: 0.50rem;
+    font-size: 0.50rem;
+    float: right;
+    margin-top: 0.30rem;
+    color: #b1afb1;
+}
+/*详情*/
+.d_content .tabs {
+    padding:0.20rem;
+    border-bottom: 2px solid #efefef;
+}
+.d_content .tabs .em {
+    font-size: 0.30rem;
+    color: #b60000;
+    margin-left: 0.55rem;
+    margin-right: 0.30rem;
+    border-bottom: 1px solid #b60000;
+}
+.d_content .tabs span {
+    font-size: 0.30rem;
+    color: #000000;
+    margin-left: 0.80rem;
+}
+/*图片*/
+.d_content .img {
+    padding: 0.20rem;
+}
+.d_content .img img {
+    width: 7.23rem;
+}
+/*品牌*/
+.d_content .brand {
+    padding: 0.20rem;
+    border-top: 5px solid #efefef;
+    border-bottom: 5px solid #efefef;
+}
+.d_content .brand .brand-left {
+    float: left;
+}
+.d_content .brand .brand-left img {
+    width: 1.12rem;
+    height: 1.12rem;
+    float: left;
+}
+.d_content .brand .brand-left span {
+    font-size: 0.30rem;
+    margin-top: 0.35rem;
+    margin-left: 0.50rem;
+    float: left;
+}
+.d_content .brand .brand-right {
+    width: 0.50rem;
+    height: 0.50rem;
+    font-size: 0.50rem;
+    float: right;
+    margin-top: 0.30rem;
+    color: #b1afb1;
+}
+/*看了又看*/
+.d_content .see {
+    padding: 0.20rem;
+    border-bottom: 5px solid #efefef;
+    margin-bottom: 1rem;
+}
+.d_content .see .see-text {
+    font-size: 0.30rem;
+}
+.d_content .see .see-img {
+    margin-left: -0.01rem;
+    float: left;
+}
+.d_content .see .see-img img {
+    width: 2.37rem;
+    height: 2.37rem;
+    margin-top: 0.30rem;
+}
+.d_content .see .see-img p {
+    font-size: 0.26rem;
+    color: #1e1c1e;
+    margin-left: 0.50rem;
+}
+/*底部*/
+.bottom{
+    width: 100%;
+    max-width: 7.5rem;
+    min-width: 3.2rem;
+    height: 0.98rem;
+    background: white;
+    border-top: 1px solid #e7e7e7;
+    margin: 0 auto;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right:0;
+    z-index: 100;
+}
+.bottom .btm-1 {
+     position: absolute;
+     top: 0.05rem;
+     left: 0.50rem;
+ }
+.bottom .btm-1 a img {
+    width: 0.60rem;
+    height: 0.60rem;
+}
+.bottom .btm-1 a p {
+    color: #797779;
+    font-size: 0.22rem;
+}
+.bottom .btm-2 {
+    position: absolute;
+    top: 0.05rem;
+    left: 2rem;
+}
+.bottom .btm-2 a img {
+    width: 0.60rem;
+    height: 0.60rem;
+}
+.bottom .btm-2 a p {
+    color: #797779;
+    font-size: 0.22rem;
+    margin-left: 0.05rem;
+}
+.bottom .join {
+    width: 2.07rem;
+    height: 0.98rem;
+    border: 1px solid #c51f22;
+    color: #c51f22;
+    font-size: 0.28rem;
+    text-align: center;
+    line-height: 0.98rem;
+    position: absolute;
+    right: 2rem;
+    top: 0;
+}
+.bottom .buy {
+    width: 2.07rem;
+    height: 0.98rem;
+    background: red;
+    color: #ffffff;
+    font-size: 0.28rem;
+    text-align: center;
+    line-height: 0.98rem;
+    position: absolute;
+    right: 0;
+    top: 0;
+}

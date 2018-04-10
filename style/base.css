@@ -1,0 +1,233 @@
+*,::before,::after{
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing:border-box;
+    -webkit-top-highlight:transparnt;/*清除点击默认的高粱效果*/
+}
+a, article, aside, audio, b, blockquote, body, caption, dd, details, div, dl, dt, em, embed, fieldset, figcaption, figure, footer, form, h1, h2, h3, h4, h5, h6, header, hgroup, html, i, iframe, img, label, legend, li, menu, nav, object, p, s, section, small, span, strong, sub, summary, sup, table, tbody, td, tfoot, th, thead, time, tr, tt, u, ul, var, video
+{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+ol,ul,li {
+    list-style: none;
+}
+table {
+    border-collapse: collapse; /*表格的边线重叠*/
+    border-spacing: 0;
+}
+input,textarea {
+    border: 0 none;
+    resize: none;/*调整尺寸*/ /*outline:none; 清除表单默认的蓝色边框效果*/
+    -webkit-appearance: none;/*针对表单的默认样式进行清除 比如立体效果*/
+}
+:focus {
+    outline: none;
+}
+img {
+    display: block;
+    -webkit-touch-callout: none; /*当你触摸并按住触摸目标时候，禁止或显示系统默认菜单*/
+}
+a,a:link,a:visited {
+    text-decoration: none;
+    color: #343434;
+    -webkit-touch-callout: none;
+}
+/*a:hover {*/
+    /*color: #ff6699;*/
+/*}*/
+.clearfix:after {
+    content:"";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden;
+}
+.f1 {
+    float: left;
+}
+.fr {
+    float: right;
+}
+html {
+    -webkit-text-size-adjust: none; /*不调整（拉伸）字体大小*/
+    font-size: 100px; /*表示100px=1rem;    625%   62.5%*/
+}
+body {
+    font-family: "microsoft yahei", "\534E\6587\7EC6\9ED1", Verdana, Arial, Helvetica, sans-serif;  font-size:24px;  background:rgba(255,255,255,0);  -webkit-user-select: none; /*禁止选中内容*/
+                   /*微软雅黑        华文细黑                       最后一个字体：ios系统默认  */
+}
+.m_layout {
+    max-width: 7.5rem;
+    min-width: 3.2rem;
+    width: 100%;
+    background:rgba(255,255,255,1);
+    margin: 0 auto;
+}
+
+/*文字图标的引入方法*/
+@font-face {
+    font-family: 'iconfont';  /* project id 593276 */
+    src: url('http://at.alicdn.com/t/font_593276_m64faokncbd42t9.eot');
+    src: url('http://at.alicdn.com/t/font_593276_m64faokncbd42t9.eot?#iefix') format('embedded-opentype'),
+    url('http://at.alicdn.com/t/font_593276_m64faokncbd42t9.woff') format('woff'),
+    url('http://at.alicdn.com/t/font_593276_m64faokncbd42t9.ttf') format('truetype'),
+    url('http://at.alicdn.com/t/font_593276_m64faokncbd42t9.svg#iconfont') format('svg');
+}
+.iconfont {
+    font-family:"iconfont" !important;
+    font-size:20px;font-style:normal;
+    -webkit-font-smoothing: antialiased;
+    -webkit-text-stroke-width: 0.2px;
+    -moz-osx-font-smoothing: grayscale;
+
+}
+
+/*头部*/
+#header {
+    max-width: 7.5rem;
+    min-width: 3.2rem;
+    width: 100%;
+    height:0.88rem;
+    background: black;
+    position: fixed;
+    margin: 0 auto;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 20;
+}
+#header .m_left {
+    width: 0.80rem;
+    height: 0.60rem;
+    font-size: 0.50rem;
+    color: #fff;
+    position: absolute;
+    top: 0.05rem;
+    left: 0.20rem;
+}
+#header .m_left p {
+    font-size: 0.20rem;
+    margin-top: -0.02rem;
+}
+#header .m_right {
+    width: 0.60rem;
+    height: 0.60rem;
+    font-size: 0.60rem;
+    color: #fff;
+    position: absolute;
+    right: 0.20rem;
+    top: 0.02rem;
+}
+#header .m_right p {
+    font-size: 0.20rem;
+    margin-left: 0.08rem;
+    margin-top: -0.12rem;
+}
+#header .m_search {
+    width: 100%;
+    height: 0.60rem;
+    /*background: blueviolet;*/
+    margin-top: 0.15rem;
+}
+#header .m_search form {
+    width: 100%;
+    height: 100%;
+    padding: 0 1rem 0 1rem;
+    /*background: green;*/
+    position: relative;
+}
+#header .m_search form input[type=text] {
+    width: 100%;
+    height: 100%;
+    background: #e7e7e7;
+    border-radius: 0.1rem;
+    font-size: 0.2rem;
+    font-family: Arial;
+    padding-left: 0.7rem;
+}
+#header .m_search form input[type=button] {
+    width: 0.35rem;
+    height: 0.35rem;
+    font-size: 0.35rem;
+    color: black;
+    background: transparent;
+    position: absolute;
+    top: 0.12rem;
+    left: 1.1rem;
+}
+
+/*分类顶部*/
+.m_sub_header {
+    max-width: 7.5rem;
+    min-width: 3.2rem;
+    width: 100%;
+    height:0.88rem;
+    background: #333;
+    position: fixed;
+    margin: 0 auto;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 20;
+}
+.m_sub_header .m_header_left a {
+    width: 0.80rem;
+    height: 0.60rem;
+    font-size: 0.50rem;
+    color: white;
+    position: absolute;
+    top: 0.16rem;
+    left: 0.20rem;
+}
+.m_sub_header .m_header_right {
+    text-align: center;
+    line-height: 0.88rem;
+}
+.m_sub_header .m_header_right span {
+    color: white;
+    font-size: 0.34rem;
+}
+/*底部*/
+footer{
+    width: 100%;
+    max-width: 7.5rem;
+    min-width: 3.2rem;
+    height: 0.98rem;
+    background: white;
+    border-top: 1px solid #e7e7e7;
+    margin: 0 auto;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right:0;
+    z-index: 100;
+}
+footer ul {
+    width: 100%;
+    height: 100%;
+    /*display: flex;*/
+}
+footer ul li {
+    /*flex: 1;*/
+    width: 25%;
+    float: left;
+    padding-top: 0.12rem;
+    text-align: center;
+}
+footer ul li a img {
+    width: 0.60rem;
+    height: 0.60rem;
+    margin-left: 0.64rem;
+}
+footer ul li a .t1{
+    color: #000000;
+    font-size: 0.22rem;
+    font-weight: 700;
+}
+footer ul li a .t2 {
+    color: #646464;
+    font-size: 0.22rem;
+}
